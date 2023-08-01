@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/8051ef5043.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Portfolio | My Website</title>
+  <style>
+    .hero{
+      height: 110vh;
+      background-image: url('./img/Mine..jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding-top: 80px;
+      position: relative;
+    }
+  </style>
+
+</head>
+<body class="bg-gray-800 text-white">
+
+  <header class="sticky z-5 top-0">
+  <section class="bg-gray-700">
+      <nav class="flex justify-between items-center px-32 py-5">
+        <h1 class="font-extrabold text-4xl italic">OES</h1>
+        <ul class="flex gap-8 font-extrabold">
+          <li><a class="text-yellow-500 hover:duration-500 ease-in-out" href="index.html">Home</a></li>
+          <li><a class="hover:text-yellow-700 hover:duration-500 ease-in-out" href="#about">About</a></li>
+          <li><a class="hover:text-yellow-700 hover:duration-500 ease-in-out" href="#projects">Projects</a></li>
+          <li><a class="hover:text-yellow-700 hover:duration-500 ease-in-out" href="#testimonial">Testimonials</a></li>
+          <li><a class="hover:text-yellow-700 hover:duration-500 ease-in-out" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </section>
+  </header>
+
+  <!-- Hero section -->
+  <section class="p-10 mt-80px hero">
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="absolute inset-0 flex flex-col mx-20 pt-72">
+      <h1 class="text-4xl font-extrabold text-gray-200">Hello👋</h1>
+      <h3 class="text-2xl font-extrabold text-gray-200 py-5">I am Emmanuel</h3>
+      <p class="text-3xl font-extrabold text-gray-200 py-10">A Frontend Developer</p>
+      <div>
+      <a class="bg-gray-950 w-[160px] mr-5 px-5 py-4 hover:text-slate-100 hover:ease-in-out hover:duration-700 rounded-lg font-extrabold text-slate-500" href="">Hire Me</a>
+      <a class="bg-gray-950 w-[160px] p-4 hover:text-slate-100 hover:ease-in-out hover:duration-700 rounded-lg font-extrabold text-slate-500" href="">Download CV</a>
+    </div>
+    </div>
+
+  </section>
+
+  
+  <!-- About section -->
+    <section id="about" class="container mx-auto  pt-20">
+      <h2 class="text-4xl font-bold text-yellow-500 p-5 m-5">About </h2>
+      <div class="grid grid-cols-2">
+        <div class="px-5 flex flex-col justify-center">
+          <p class="">
+            I have a strong foundation in HTML, CSS, and JavaScript and am an
+            enthusiastic and creative person. I get great satisfaction from
+            turning creative ideas into fully working, aesthetically pleasing
+            websites that attract visitors and provide a remarkable user
+            experience. My area of expertise is designing responsive and
+            mobile-friendly interfaces that make websites look and work properly
+            on a range of devices and browsers. I take satisfaction in my ability
+            to painstakingly improve site speed by using methods that lead to
+            quicker load times and improved usability.
+          </p>
+        </div>
+        <img class="self-center w-[300px] rounded-lg" src="./img/emman.jpg" alt="my-pic">
+      </div>
+  
+  </section>
+<!-- Portfolio -->
+  <section id="projects" class="container mx-auto py-28">
+    <h2 class="text-4xl font-bold text-yellow-500 p-5 m-5">Projects</h2>
+    <div class="grid grid-cols-3 gap-4">
+    <a href="https://presentation-website-lemon.vercel.app/"><img  src="img/web-pre.png" alt="presentation"></a>
+    <a href="https://gpl-website.vercel.app/"><img  src="img/fin job.png" alt="finance webpage"></a>
+    <a href="https://hotel-website-project-nu.vercel.app/"><img  src="img/hotel job.png" alt="orange"></a>
+    </div>
+</section>
+
+<!-- Testimonials  -->
+<section id="testimonial" class="bg-gray-700">
+  <div class="container mx-auto">
+  <div class= "text-xl font-light text-black-500 p-5 m-5"> 
+      <h2 class="text-4xl font-bold text-yellow-500 p-5 m-5>Testimonials">Testimonials</h2>
+      <div class="flex justify-center items-center gap-5">
+          <img class="w-20 rounded-full " src="./img/adekok.jpg" alt="sherry-babe">
+          <p class="text-white">It was a pleasure working with Emmanuel. His proficiency in HTML, CSS, and JavaScript made the project run smoothly.</p>
+          <p class="text-gray-100">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;---Sherifat-</p>
+        </div>
+  </div>
+</div>
+</section>
+
+<!-- Contact section -->
+<section id="contact" class="py-20">
+  <div class="container mx-auto">
+  <h2 class="text-4xl font-bold text-center text-yellow-500 p-5 m-5">Contact</h2>
+      <div class="pb-5 flex justify-center items-center gap-8">
+          
+          <input class="bg-gray-700 w-[42%] h-12 px-4 py-2" type="text" placeholder="Fullname">
+          <input class="bg-gray-700 w-[40%] h-12 px-4 py-2" type="email" placeholder="Email" required>
+      </div>
+      <div class="flex justify-center ">
+          <textarea name="message" rows="4" class="bg-gray-700 w-[85%] px-4 py-2 mt-4 mx-20 item-center" placeholder="Your Message"></textarea>
+      </div>
+  </div>
+</section>
+
+<footer class="bg-gray-700 p-5">
+  <div class="text-center pb-5">
+  <a class="px-3 rounded-3xl shadow-lg shadow-gray-900" href="https://www.linkedin.com/in/emmanuel-sheyi-olorunsaye/"><i class="fab fa-linkedin"></i></a>
+  <a class="px-3 rounded-3xl shadow-lg shadow-gray-900" href="https://twitter.com/Oluwasheyi_87"><i class="fab fa-twitter"></i></a>
+  <a class="px-3 rounded-3xl shadow-lg shadow-gray-900" href="https://github.com/Olorunsaye"><i class="fab fa-github"></i></a>
+</div>
+  <p class="text-gray-300 text-center">copyright &copy;2023 Olorunsaye Emmanuel S. Alrights Reserved</p>
+</footer>
+
+<script>
+  $(document).ready(function() {
+    
+    $('a[href^="#"]').on('click', function(event) {
+      event.preventDefault();
+      var target = $(this.getAttribute('href'));
+      if (target.length) {
+        $('html, body').stop().animate({
+          scrollTop: target.offset().top - 100
+        }, 1000); 
+      }
+    });
+  });
+</script>
+</body>
+</html>
